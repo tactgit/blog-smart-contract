@@ -7,4 +7,16 @@ contract Counter {
     function add(uint256 _amount) public {
         counter += _amount;
     }
+
+    function sub(uint256 _amount) public {
+        counter -= _amount;
+    }
+
+    function mul(uint256 _amount) public {
+        counter *= _amount;
+    }
+
+    function div(uint256 _amount) public {
+        counter /= _amount;
+    }
 }
